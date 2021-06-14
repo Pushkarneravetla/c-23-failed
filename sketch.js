@@ -103,6 +103,8 @@ if (gamestate === PLAY){
 
 	if (gamestate === END){
 		packageBody.setVelocity = 0;
+		packageBody.position.x = 200;
+		packageBody.position.y = 410;
 		if(keyCode === LEFT_ARROW) {
 			
 			helicopterSprite.x = helicopterSprite.x-200 ;
